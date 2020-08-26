@@ -1,0 +1,61 @@
+body {
+  background-color: floralwhite;
+}
+
+h1 {
+  color: teal;
+}
+
+img {
+  width: 250px;
+  position: relative;
+}
+
+p {
+  text-align: center;
+}
+
+.port-links {
+  color: white;
+  font-size: x-large;
+}
+
+.index-links {
+  color: teal;
+  font-size: x-large;
+}
+
+.res-link {
+  color: teal;
+  font-size: x-large;
+}
+
+.navbar {
+  background-color: teal;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.nav-link {
+  color: white;
+}
+
+.block-header {
+  text-align: center;
+}
+
+.form {
+  padding-top: 30px;
+  padding-right: 150px;
+  padding-bottom: 75px;
+  padding-left: 150px;
+}
+
+.bottom {
+  background-color: teal;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
