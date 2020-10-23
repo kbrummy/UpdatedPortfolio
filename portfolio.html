@@ -2,12 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-      crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./assets/css/custom.css" />
     <title>Portfolio</title>
@@ -16,25 +18,23 @@
     <!-- Begin Nav -->
     <nav class="navbar navbar-custom navbar-expand-lg">
       <div class="container">
-        <a class="navbar-brand" href="#">Kristin Brumfield</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavTogglerDemo01"
-          aria-controls="navbarNavTogglerDemo01"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        <div class="logo">
+          <img
+            src="./assets/images/kbLogo.png"
+            width="15"
+            class="d-inline-block align-top"
+            alt=""
+            loading="lazy"
+          />
+        </div>
+
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
           <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
             <li class="nav-item active">
               <a class="nav-link" href="index.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Portfolio</a>
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contact.html">Contact</a>
@@ -47,21 +47,21 @@
 
     <!-- portfolio content -->
     <!-- Header -->
-    <div class="container">
-      <main class="row">
+    <main class="container">
+      <figure class="highlight">
         <div class="col-md-12">
           <article class="block">
-            <h1 class="block-header" style="margin: 20px;">Portfolio</h1>
+            <h1 class="page-header" style="margin: 10px">Portfolio</h1>
             <hr />
             <div class="row">
-              <div class="col-md-12" style="background-color: teal;">
+              <div class="col-md-12">
                 <img
                   class="img-fluid rounded"
                   src="./assets/images/Screen Shot 2020-08-25 at 9.57.55 PM.png"
                   alt="Proj1"
-                  style="width: fit-content; margin: 10px;"
+                  style="width: fit-content; margin: 10px"
                 />
-                <div style="text-align: center;">
+                <div style="text-align: center">
                   <a
                     class="port-links"
                     href="https://brianpraseuth.github.io/Group-Project-1-Insta-Date/"
@@ -73,17 +73,14 @@
 
             <!-- Row 2 -->
             <div class="row">
-              <div
-                class="col-sm-6 col-md-12 col-lg-6"
-                style="background-color: teal;"
-              >
+              <div class="col-sm-6 col-md-12 col-lg-6">
                 <img
                   class="img-fluid rounded"
                   src="./assets/images/Screen Shot 2020-08-25 at 9.58.56 PM.png"
                   alt="quiz"
-                  style="width: fit-content; margin: 10px;"
+                  style="width: fit-content; margin: 10px"
                 />
-                <div style="text-align: center;">
+                <div style="text-align: center">
                   <a
                     class="port-links"
                     href="https://kbrummy.github.io/Homework4/"
@@ -91,17 +88,14 @@
                   >
                 </div>
               </div>
-              <div
-                class="col-sm-6 col-md-12 col-lg-6"
-                style="background-color: teal;"
-              >
+              <div class="col-sm-6 col-md-12 col-lg-6">
                 <img
                   class="img-fluid rounded"
                   src="./assets/images/Screen Shot 2020-08-25 at 9.58.35 PM.png"
                   alt="coffee"
-                  style="width: fit-content; margin: 10px;"
+                  style="width: fit-content; margin: 10px"
                 />
-                <div style="text-align: center;">
+                <div style="text-align: center">
                   <a
                     class="port-links"
                     href="https://kbrummy.github.io/Homework5/"
@@ -112,14 +106,14 @@
             </div>
           </article>
         </div>
-      </main>
-    </div>
-    <!-- footer -->
-    <footer class="footer">
-      <div class="two-toned-footer-color"></div>
-      <p class="text-muted text-muted-footer text-center">
-        &copy; Copyright 2020 Kristin Brumfield
-      </p>
-    </footer>
+      </figure>
+      <!-- footer -->
+      <footer class="footer">
+        <div class="two-toned-footer-color"></div>
+        <p class="text-muted text-muted-footer text-center">
+          &copy; Copyright 2020 Kristin Brumfield
+        </p>
+      </footer>
+    </main>
   </body>
 </html>

@@ -1,5 +1,7 @@
 body {
-  background-color: floralwhite;
+  background-image: url("../images/IMG_1623_2.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {
@@ -13,6 +15,7 @@ img {
 
 p {
   text-align: center;
+  font-size: 20px;
 }
 
 .port-links {
@@ -31,31 +34,41 @@ p {
 }
 
 .navbar {
-  background-color: teal;
+  background-color: rgb(0, 128, 128, 0.5);
+  height: 225px;
 }
 
-.navbar-brand {
-  color: white;
+.logo {
+  align-content: center;
 }
 
 .nav-link {
   color: white;
+  font-size: 35px;
+  margin-top: 100px;
+  padding-left: 250px;
 }
 
-.block-header {
-  text-align: center;
+.navbar-nav {
 }
 
-.form {
-  padding-top: 30px;
-  padding-right: 150px;
-  padding-bottom: 75px;
-  padding-left: 150px;
+a:hover {
+  color: rgb(85, 83, 83);
 }
 
-.bottom {
-  background-color: teal;
-  color: white;
-  padding-top: 15px;
-  padding-bottom: 15px;
+a:active {
+  color: black;
+}
+
+.highlight {
+  background-color: rgb(220, 220, 220, 0.7);
+  padding: 70px 0;
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-bottom: 50px;
+  margin-right: 10px;
+}
+
+.contactInfo {
+  padding-bottom: 25px;
 }

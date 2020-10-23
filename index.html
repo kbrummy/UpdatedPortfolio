@@ -7,43 +7,41 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>About</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     />
     <link rel="stylesheet" href="./assets/css/custom.css" />
+    <title>About</title>
   </head>
   <body>
     <!-- Begin Nav -->
     <nav class="navbar navbar-custom navbar-expand-lg">
       <div class="container">
-          <a class="navbar-brand" href="#">Kristin Brumfield</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNavTogglerDemo01"
-            aria-controls="navbarNavTogglerDemo01"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-            </ul>
-          </div>
+        <div class="logo">
+          <img
+            src="./assets/images/kbLogo.png"
+            width="15"
+            class="d-inline-block align-top"
+            alt=""
+            loading="lazy"
+          />
         </div>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
     <!-- End Nav -->
 
@@ -51,74 +49,50 @@
     <!-- Container -->
     <main class="container">
       <!-- Row 1 -->
-      <section class="row">
-        <div class="col-md-12">
-          <article class="block">
-            <h1 class="page-header" style="margin: 10px;">About Me</h1>
-            <hr />
-            <img
-                    class="align-self-center mr-4 rounded float-left"
-                    style="margin: 20px;"
-                    src="./assets/images/KristinB.jpg"
-                    alt="placeholder image"
-                  />
-            <p class="mb-0" style="margin: 10px;">
-              My name is Kristin Brumfield. I live in the Sacramento area and I
-              am taking the UC Davis Coding Bootcamp. My goal for this course is
-              to become a full stack web developer and begin a career in that
-              field.
-            </p>
-            <p class="mb-0" style="margin: 10px;">
-              Currently I work full time at Sacramento Natural Foods Co-Op.
-              Before that, my work experience has been primarily in the
-              fitness/gym realm, rock climbing specifically. I started rock
-              climbing in 2008 and have since worked at two different rock
-              climbing gyms in the Sacramento area. Although rock climbing is
-              still a huge passion of mine, I decided I need to move on from it
-              as a career.
-            </p>
-            <p class="mb-0" style="margin: 10px;">
-              When I am not working or coding, you can find me doing any one of
-              my other passions: rock climbing, hiking, paddle boarding, yoga,
-              reading, creating, or spending time with friends.
-            </p>
-          </article>
-        </div>
-      </section>
+      <figure class="highlight">
+        <section class="row">
+          <div class="col-md-12">
+            <article class="block">
+              <h1 class="page-header" style="margin: 10px">About Me</h1>
+              <hr />
+              <img
+                class="align-self-center mr-4 rounded float-left"
+                style="margin: 20px"
+                src="./assets/images/KristinB.jpg"
+                alt="placeholder image"
+              />
+              <p class="mb-0" style="margin: 10px">
+                My name is Kristin Brumfield. I live in the Sacramento area and
+                I am taking the UC Davis Coding Bootcamp. My goal for this
+                course is to become a Full Stack Web Developer and begin a
+                career in that field.
+              </p>
+              <p class="mb-0" style="margin: 10px">
+                Currently I work full time for a small online company that sells
+                outdoor adventure gear for dogs. Before that, my work experience
+                has been primarily in the fitness/gym realm, rock climbing
+                specifically. I started rock climbing in 2008 and have since
+                worked at two different rock climbing gyms in the Sacramento
+                area.
+              </p>
+              <p class="mb-0" style="margin: 10px">
+                When I am not working or coding, you can find me doing any one
+                of my other hobbies: rock climbing, hiking, paddle boarding,
+                yoga, reading, creating, or spending time with friends.
+              </p>
+            </article>
+          </div>
+        </section>
+      </figure>
 
-      <!-- Row -->
-      <section class="row">
-        <div class="col-md-3">
-          <a href="https://github.com/kbrummy" class="index-links">GitHub</a>
-        </div>
-        <div class="col-md-3">
-          <a
-            href="https://www.linkedin.com/in/kristin-brumfield-74a565178"
-            class="index-links"
-            >LinkedIn</a
-          >
-        </div>
-        <div class="col-md-4">
-          <a href="#" class="index-links">brummy.k@gmail.com</a>
-        </div>
-        <div class="col-md-2">
-          <a href="#" class="index-links">559.909.3762</a>
-        </div>
-      </section>
-      <section class="row">
-        <div class="col-md-12">
-          <a href="Brumfield,K.Resume.pdf" class="res-link">Resume</a>
-        </div>
-      </section>
       <!-- Footer -->
       <footer class="footer">
         <div class="two-toned-footer-color"></div>
-        <p class="text-muted text-muted-footer text-center">
+        <p class="text-muted text-muted-footer text-center fixed-bottom">
           &copy; Copyright 2020 Kristin Brumfield
         </p>
       </footer>
-    
-    </div>
+    </main>
 
     <script
       type="text/javascript"
