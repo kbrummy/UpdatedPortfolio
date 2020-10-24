@@ -1,12 +1,9 @@
 var i = 0;
 var image = new Array();
 // LIST OF IMAGES
-image[0] =
-  "/Users/kristinbrumfield/Desktop/Homework/UpdatedPortfolio/assets/images/Insta-Date.png";
-image[1] =
-  "/Users/kristinbrumfield/Desktop/Homework/UpdatedPortfolio/assets/images/Work-Day-Scheduler.png";
-image[2] =
-  "/Users/kristinbrumfield/Desktop/Homework/UpdatedPortfolio/assets/images/Code-Quiz.png";
+image[0] = "./assets/images/Insta-Date.png";
+image[1] = "./assets/images/Work-Day-Scheduler.png";
+image[2] = "./assets/images/Code-Quiz.png";
 var k = image.length - 1;
 
 var link = new Array();
