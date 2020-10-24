@@ -2,11 +2,11 @@ var i = 0;
 var image = new Array();
 // LIST OF IMAGES
 image[0] =
-  "/Users/kristinbrumfield/Desktop/Homework/UpdatedPortfolio/assets/images/Screen Shot 2020-08-25 at 9.57.55 PM.png";
+  "/Users/kristinbrumfield/Desktop/Homework/UpdatedPortfolio/assets/images/Insta-Date.png";
 image[1] =
-  "/Users/kristinbrumfield/Desktop/Homework/UpdatedPortfolio/assets/images/Screen Shot 2020-08-25 at 9.58.35 PM.png";
+  "/Users/kristinbrumfield/Desktop/Homework/UpdatedPortfolio/assets/images/Work-Day-Scheduler.png";
 image[2] =
-  "/Users/kristinbrumfield/Desktop/Homework/UpdatedPortfolio/assets/images/Screen Shot 2020-08-25 at 9.58.56 PM.png";
+  "/Users/kristinbrumfield/Desktop/Homework/UpdatedPortfolio/assets/images/Code-Quiz.png";
 var k = image.length - 1;
 
 var link = new Array();
@@ -26,7 +26,7 @@ function swapImage() {
   } else {
     i = 0;
   }
-  setTimeout("swapImage()", 5000);
+  setTimeout("swapImage()", 4000);
 }
 function addLoadEvent(func) {
   var oldonload = window.onload;
