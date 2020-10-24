@@ -4,6 +4,7 @@ var image = new Array();
 image[0] = "./assets/images/Insta-Date.png";
 image[1] = "./assets/images/Work-Day-Scheduler.png";
 image[2] = "./assets/images/Code-Quiz.png";
+image[3] = "./assets/images/Culinate.png";
 var k = image.length - 1;
 
 var link = new Array();
@@ -11,6 +12,7 @@ var link = new Array();
 link[0] = "https://brianpraseuth.github.io/Group-Project-1-Insta-Date/";
 link[1] = "https://kbrummy.github.io/Homework5/";
 link[2] = "https://kbrummy.github.io/Homework4/";
+link[3] = "#";
 
 function swapImage() {
   var img = document.getElementById("slide");

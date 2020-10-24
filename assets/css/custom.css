@@ -14,7 +14,12 @@ p {
 }
 
 img {
-  width: 250px;
+  width: 300px;
+  position: relative;
+}
+
+.logoKb {
+  width: 225px;
   position: relative;
 }
 
