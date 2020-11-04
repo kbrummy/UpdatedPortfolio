@@ -36,6 +36,7 @@ img {
 .navbar {
   background-color: rgb(0, 128, 128, 0.5);
   height: 225px;
+  z-index: 999;
 }
 
 .nav-link {

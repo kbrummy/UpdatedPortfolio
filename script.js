@@ -2,17 +2,17 @@ var i = 0;
 var image = new Array();
 // LIST OF IMAGES
 image[0] = "./assets/images/Insta-Date.png";
-image[1] = "./assets/images/Work-Day-Scheduler.png";
+image[1] = "./assets/images/Culinate.png";
 image[2] = "./assets/images/Code-Quiz.png";
-image[3] = "./assets/images/Culinate.png";
+image[3] = "./assets/images/Work-Day-Scheduler.png";
 var k = image.length - 1;
 
 var link = new Array();
 // LIST OF LINKS
 link[0] = "https://brianpraseuth.github.io/Group-Project-1-Insta-Date/";
-link[1] = "https://kbrummy.github.io/Homework5/";
+link[1] = "#";
 link[2] = "https://kbrummy.github.io/Homework4/";
-link[3] = "#";
+link[3] = "https://kbrummy.github.io/Homework5/";
 
 function swapImage() {
   var img = document.getElementById("slide");
